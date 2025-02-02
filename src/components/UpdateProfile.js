@@ -32,7 +32,7 @@ export default function UpdateProfile() {
 
     try {
       await Promise.all(promises).then(() => {
-    navigate.push("/")
+    navigate("/")
     }).catch(() => {
       setError("Failed to update account");
     }).finally(() => {

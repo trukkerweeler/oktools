@@ -13,7 +13,7 @@ async function handleLogout() {
     setError("");
     try {
       await logout();
-      navigate.push("/login");
+      navigate("/login");
     } catch {
       setError("Failed to log out");
     }
