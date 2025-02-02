@@ -1,19 +1,12 @@
-import React, { useContext } from 'react';
-// import { ToolProvider } from '../contexts/ToolContext';
+import React from 'react'
 
-// const Tools = () => {
-//     // const { tools } = useContext(ToolContext);
+export default function Tools() {
 
-//     return (
-//         <div>
-//             <h1>Tools List</h1>
-//             <ul>
-//                 {tools.map((tool, index) => (
-//                     <li key={index}>{tool.name}</li>
-//                 ))}
-//             </ul>
-//         </div>
-//     );
-// };
+  
+  return (
+    <div>Tools</div>
+  )
+}
+
 
 // export default Tools;

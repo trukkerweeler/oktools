@@ -21,6 +21,8 @@ async function handleLogout() {
 
   return (
     <>
+    {/* Button to go to tools page */}
+    <Button variant="link" className="w-100" href="/tools"> Tools </Button>
       <Card>
         <Card.Body>
           <h2 className="text-center mb-4">Profile</h2>
