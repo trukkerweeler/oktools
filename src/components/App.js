@@ -8,7 +8,9 @@ import Login from "./Login";
 import PrivateRoute from "./PrivateRoute";
 import ForgotPassword from "./ForgotPassword";
 import UpdateProfile from "./UpdateProfile";
-import Tools from "./Tools";
+import ToolsTable from "./Tools";
+import ToolEdit from "./ToolEdit";
+import ToolAdd from "./ToolAdd";
 
 
 
@@ -44,14 +46,13 @@ function App() {
               <Route path="/signup" element={<Signup />} />
               <Route path="/login" element={<Login />} />
               <Route path="/forgot-password" element={<ForgotPassword />} />
-              <Route path="/tools" element={<Tools />} />
+              <Route path="/tools" element={<ToolsTable />} />
+              <Route path="/ToolEdit/:id" element={<ToolEdit />} />
+              <Route path="/ToolAdd" element={<ToolAdd />} />
             </Routes>
           </AuthProvider>
         </Router>
       </div>
-      {/* <ToolProvider>
-        <Tools/>
-      </ToolProvider> */}
     </Container>
 
                 
